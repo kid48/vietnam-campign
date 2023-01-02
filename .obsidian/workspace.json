@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "3099b6d21ba74135",
+    "type": "split",
+    "children": [
+      {
+        "id": "3dda9e2f2bbfac41",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bda469396ea61e34",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Без названия.canvas",
+                "viewState": {
+                  "x": -773.7071482066831,
+                  "y": 399.3247848456501,
+                  "zoom": -0.8674342069281331,
+                  "snapToGrid": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "976688d4eee0d06e",
+    "type": "split",
+    "children": [
+      {
+        "id": "fbf973082f828298",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7111cb1faee6cf78",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "00b849815f015353",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": true,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "74818b1615d70318",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "63141106f6c6f745",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4a5725591c01a84",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "80d3352ccce28448",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Без названия.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "24ada8a1da42f5c8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Без названия.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "89499bfbae0e9fbb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e961f6bd7741eac2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Без названия.canvas"
+              }
+            }
+          },
+          {
+            "id": "b5f84140df533740",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "bda469396ea61e34",
+  "lastOpenFiles": [
+    "Без названия 1.canvas",
+    "Без названия.canvas",
+    "Артефакт.md",
+    "Игроки/Агент Эрик Родригес.md",
+    "Игроки/Игроки.md",
+    "Игроки/Tran Nguyen.md",
+    "Игроки/Rachel Kim.md",
+    "Вложения/Улика1.png",
+    "Вложения/agent1.png",
+    "2023-01-02.md"
+  ]
+}
