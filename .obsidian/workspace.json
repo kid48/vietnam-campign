@@ -11,15 +11,11 @@
             "id": "bda469396ea61e34",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Без названия.canvas",
-                "viewState": {
-                  "x": -773.7071482066831,
-                  "y": 399.3247848456501,
-                  "zoom": -0.8674342069281331,
-                  "snapToGrid": false
-                }
+                "file": "Возможные зацепки.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -89,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Без названия.canvas",
+                "file": "Возможные зацепки.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Без названия.canvas",
+                "file": "Возможные зацепки.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Без названия.canvas"
+                "file": "Возможные зацепки.md"
               }
             }
           },
@@ -161,8 +157,8 @@
   },
   "active": "bda469396ea61e34",
   "lastOpenFiles": [
-    "Без названия 1.canvas",
     "Без названия.canvas",
+    "Без названия 1.canvas",
     "Артефакт.md",
     "Игроки/Агент Эрик Родригес.md",
     "Игроки/Игроки.md",
