@@ -1,0 +1,30 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "FasUser-secret",
+      "FasPlace-of-worship",
+      "FasUsers",
+      "FasUser",
+      "FarImage"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false
+  },
+  "TTRPG/Vietnam/Вложения": "FarImage",
+  "TTRPG/Vietnam/Игроки": "FasUser",
+  "TTRPG/Vietnam/Локации": "FasPlace-of-worship",
+  "TTRPG/Vietnam/Противники": "FasUser-secret",
+  "TTRPG/Vietnam/Союзники": "FasUsers"
+}
