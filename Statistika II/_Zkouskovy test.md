@@ -485,6 +485,7 @@ H1 znaky vykazuji zavislost
 ## **b)**      **Je možne tvrdit že mezi znáky existuje závislost**
 
 ![[Pasted image 20230904131658.png]]
+![s](./assets/Pasted_image20230904131658.png)
 
 
 **0,0240 menší než 0,05, zamitame nulovou hypotézu a jedna o nezavislosti znaku**

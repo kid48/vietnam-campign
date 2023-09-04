@@ -17,7 +17,7 @@
 >- **“Минимум”** : Q1 - 1.5*IQR
 >- **“Максимум”** : Q3 + 1.5*IQR
 
-![[1_boxplots_0.jpg]]
+![[../Assets/1_boxplots_0.jpg]]
 
 ## Extrémní/odlehlá pozorování
 
@@ -26,4 +26,4 @@
 
 >[!tip] 
 
-![[Pasted image 20230902201322.png]]
+![[../Assets/Pasted image 20230902201322.png]]
