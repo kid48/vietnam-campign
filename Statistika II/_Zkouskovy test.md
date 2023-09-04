@@ -313,3 +313,190 @@ proc univariate data=jizda mu0=45;
 var mereni;
 run;
 ```
+
+# Android a Iphone
+## **Při rozhodování o nákupu nového dotykového telefonu byla vyslovena domněnka, že ceny těchto telefonů jsou v podstatě stejné a že rozhodujícím kritériem bude spíše použitý operační systém. Zjištěné ceny (v tis. Kč) uvádí následující tabulka.**
+
+|   |   |   |   |   |   |   |   |   |   |   |   |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+|Android|2,99|5,81|4,69|12,75|4,28|3,49|8,97|5,19|6,88|6,66|5,38|
+|iOS|7,59|11,99|11,99|16,39|13,99|3,95|6,99|3,49|7,00|9,95|13,99|
+
+### Mají oba soubory stejné rozložení hodnot okolo průměru nebo se určitým způsobem odlišují?
+
+```sas
+data telefon;
+input telefon$ cena@@;
+datalines;
+android 2.99 android 5.81 android 4.69 android 12.75 android 4.28 android 3.49 android 8.97 android 5.19 android 6.88 android 6.66 android 5.38
+
+ios 7.59 ios 11.99 ios 11.99 ios 16.39 ios 13.99 ios 3.95 ios 6.99 ios 3.49 ios 7.00 ios 9.95 ios 13.99
+;
+
+proc means data=telefon n mean median min max stddev cv skewness kurtosis;
+
+class telefon;
+var cena;
+
+proc univariate data=telefon normal plot;
+run;
+```
+
+**IOS**
+**Mean** = 9,756
+**Šikmost** = -0.04
+Šikmost je **záporná**, což znamená, že většina hodnot se nachází nad průměrem a vykazuje **levostrannou asymetrii** v rozloženi četnosti
+
+**ANDROID**
+**Mean** = 6,09
+**Šikmost** = 1.5
+Šikmost je **kladná**, ukazuje to, že většina hodnot se nachází pod průměrem a vykazuje **pravostrannou asymetrii** v rozloženi četnosti
+
+Ani jedno rozdělení není symetrické, Android více zešikmen doprava a IOS blíže se ke průměru
+
+**Špičatost pro oba soubory** se rovna -0,71, což znamená, že hromadné rozdělení cen je ploché
+
+### **b) Je třeba zjistit, zda jsou ceny telefonů s těmito operačními systémy skutečně stejné.** **Jaký postup bude použit? Uveďte jej a výběr zdůvodněte.**
+
+Udělám test normality pokud budu mít normální rozděleni tím pádem budu používat dvou výběrový párový ttest o shodě středních hodnot, pokud ne tak **npar1way**
+### **c) Jsou splněny základní podmínky pro použití Vámi zvoleného postupu?** **Uveďte číselný důkaz včetně slovního zhodnocení.**
+
+Nejdriv se udela procedura univariate pro zjisteni normality.
+
+```sas
+proc univariate data=telefon normal;
+class telefon;
+var cena;
+run;
+```
+
+**ANDROID** 
+- Využiji Shapiro-Wilkův test normality cena je větší než kritérium 0,05 (0.0950). nulová hypotéza se přijímá a proměnná cena má normální rozdělení.
+
+**IOS**
+- Využiji Shapiro-Wilkův test normality cena je větší než kritérium 0,05 (0.6054). nulová hypotéza se přijímá a proměnná cena má normální rozdělení.
+
+PRO OBA test normality = 0,0530, nulova hypotéza se přima a proměnná cena má normálnó rozdělení
+
+### **d) Lze tvrdit, že jsou ceny telefonů skutečně shodné?**
+
+Proto použijeme t-test
+  
+```sas
+proc ttest data = telefon;
+Class telefon;
+Var cena;
+Run;
+```
+
+Ttest zamítá nulovou hypotézu protože je menší než 0.05 a tím pádem vybíráme equal řádek 0,0273, znamená to že ceny telefonu nejsou stejné. 0.1863 ukazuje na shodnost rozptylu
+
+---
+# SONY SAMSUNG HUAWEI
+
+| Samsung Galaxy | Sony Xperia | Lenovo P70 | Huawei P7 |
+| -------------- | ----------- | ---------- | --------- |
+| 7.7            | 9.4         | 6.6        | 7.0       |
+| 9.4            | 10.1        | 6.5        | 6.5       |
+| 9.5            | 9.7         | 6.3        | 7.1       |
+| 8.9            | 10          | 7.2        | 7.2       |
+| 8.4            | 9.9         | 7.5        | 8.2          |
+
+**a)** **Je třeba ověřit, zda jsou ceny uvedených značek mobilních telefonů shodné. Jak bude formulovaná nulová hypotéza a alternativní hypotéza**
+```sas
+data priklad;
+input telefon$ cena@@;
+datalines;
+Samsung 7.7 Samsung 9.4 Samsung 9.5 Samsung 8.9 Samsung 8.4
+Sony 9.4 Sony 10.1 Sony  9.7 Sony 10 Sony  9.9  
+Lenovo 6.6 Lenovo 6.5 Lenovo 6.3 Lenovo 7.2 Lenovo 7.5
+Huawei 7 Huawei 6.5 Huawei 7.1 Huawei 7.4 Huawei 8.2
+```
+
+H0: u1=u2=u3=u4
+H1: alespon 1 cena je rozdilna
+
+## **b)**     **Jsou splněny podmínky pro použiti zvoleného statistického modelu?**
+```sas
+proc univariate data = priklad normal plot;
+run;
+```
+
+![[Pasted image 20230904125109.png]]
+
+Pr<W (0.0465) => H0 se zamitame, soubor nema normalni rozdeleni. **Neparametricky test.**
+## **c)**     **Jaký závěr vyplývá ze provedeného testu**
+
+```sas
+proc npar1way data = priklad wilcoxon;
+class telefon;
+var cena;
+run;
+```
+
+![[Pasted image 20230904125849.png]]
+>[!tip] Мысли Ильи
+>Так как видим коеф меньше 0,05, то замитаем 0 гипотезу. Цены отличаются!
+>
+
+Ceny jsou odlisny
+
+## **d)**     **Pokud jsou ceny odlišné, tak mezi jakými značkami se cena konkrétně liší**
+
+>[!tip] Мысли Ильи
+>Здесь смотрим на график - он покажет какие отличаются 
+>
+
+![[Pasted image 20230904130213.png]]
+
+Sony a Samsung se lisi od H a L
+
+---
+# MUZ ZENA ANO NE 
+
+S ohledem na množství bezpečnostech hrozeb které ohrožuji data v počítací, si antivirová firma zadal průzkum s cílem ověřit, do jake miry používají uživatele antivirové programy. Odpovědi získané v tomto průzkumu jsou uvedeny v následující tabulce: 
+
+| pohlavi | ano | ne  |
+| ------- | --- | --- |
+| muz     | 12  | 7   |
+| zena    | 4   | 12    |
+
+## **a)**      **Jak zni hypotezy H0 H1 pro posouzení vztahu mezi těmíto znáky**
+
+```sas
+data program;
+input pohlavi$ odpoved$ body@@;
+
+datalines;
+m a 12 m n 7
+z a 4 z n 12
+;
+proc freq data=program;
+
+tables pohlavi*odpoved/expected chisq measures;
+weight body;
+title "kdo pouziva";
+run;
+```
+
+H0 mezi znaky neexistuje zavislost, použivani antivirového programu není závisle na pohlavi
+H1 znaky vykazuji zavislost
+
+## **b)**      **Je možne tvrdit že mezi znáky existuje závislost**
+
+![[Pasted image 20230904131658.png]]
+
+
+**0,0240 menší než 0,05, zamitame nulovou hypotézu a jedna o nezavislosti znaku**
+
+>[!tip] Мысли Ильи
+>В таких случаях мы сначала смотрим на Чи-квадрат (0,02)
+
+## **c)**      **Pokud závislost prokázána jak je její síla**
+
+>[!tip] Мысли Ильи
+>Смотрим на Крамера (0,3816) = 38,16% - слабая зависимость
+
+**Podivame na vysledek Cramers V ktery je 0,3816, což řika o slabe závislosti mezi znaky**
+
+---

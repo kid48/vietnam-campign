@@ -67,6 +67,6 @@
 
 | $$\alpha^1>0$$                          | $$\alpha=0$$                   | $$\alpha<0$$                    |
 | --------------------------------------- | ------------------------------ | ------------------------------- |
-| Data jsou **sešikmená zleva od průměru**       |	Jedná se o souměrné rozdělení	 | Data jsou sešikmená zprava od průměru |
+| Data jsou **sešikmená zleva od průměru**   (pravostranna asymetrie)    |	Jedná se o souměrné rozdělení	 | Data jsou sešikmená zprava od průměru |
 | Převládají malá čísla oproti velkým|                                | Převládají vyšší hodnoty oproti malým |
 
