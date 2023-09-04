@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistika II/_Zkouskovy test.md",
+                "file": "Statistika II/Boxplot.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistika II/_Zkouskovy test.md",
+                "file": "Statistika II/Boxplot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistika II/_Zkouskovy test.md",
+                "file": "Statistika II/Boxplot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistika II/_Zkouskovy test.md"
+                "file": "Statistika II/Boxplot.md"
               }
             }
           },
@@ -169,6 +169,7 @@
   },
   "active": "56a2f07b3786c4eb",
   "lastOpenFiles": [
+    "Statistika II/_Zkouskovy test.md",
     "Statistika II/Boxplot.md",
     "Assets/Pasted image 20230904093114.png",
     "TTRPG/Readme.md",
@@ -177,7 +178,6 @@
     "Assets/Pasted image 20230902201322.png",
     "Statistika II/Jednoduchá regrese a korelace.md",
     "Assets/Pasted image 20230508014621.png",
-    "Statistika II/_Zkouskovy test.md",
     "Assets/Pasted image 20230904131658.png",
     "Assets/Pasted image 20230904130213.png",
     "Assets/Pasted image 20230904125849.png",
