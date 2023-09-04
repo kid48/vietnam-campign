@@ -2,5 +2,11 @@
   "attachmentFolderPath": "Assets",
   "alwaysUpdateLinks": true,
   "spellcheckLanguages": null,
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  }
 }
