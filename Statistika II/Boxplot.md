@@ -26,4 +26,4 @@
 
 >[!tip] 
 
-![[../Assets/Pasted image 20230902201322.png]]
+![](../Assets/Pasted%20image%2020230902201322.png)

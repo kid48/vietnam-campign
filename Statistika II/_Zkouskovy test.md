@@ -40,7 +40,7 @@ var body;
 run;
 ```
 
-![[Pasted image 20230901170534.png]]
+![Pasted image 20230901170534](../Assets/Pasted%20image%2020230901170534.png)
 
 Kurtosis = [[Základní statistické charakteristiky#^293655|Špičatost]]
 Skewness = [[Základní statistické charakteristiky#Šikmost|Šikmost]]
@@ -79,13 +79,13 @@ run;
 ```
 
 ### TEST B
-![[Pasted image 20230904000748.png]]
+![Pasted image 20230904000748](../Assets/Pasted%20image%2020230904000748.png)
 
 Provedeme Shapiro-Wilkův test, test normality Testu B je vetší než kriterium 0,05, proto se nulova hypoteza přijma a proměnna má normální rozdělení
  
   ---
 ### TEST A
-![[Pasted image 20230904000926.png]]
+![Pasted image 20230904000926](../Assets/Pasted%20image%2020230904000926.png)
 
 Provedeme Shapiro-Wilkův test, test normality Testu A je vetší než kriterium 0,05, proto se nulova hypoteza přijma a proměnna má normální rozdělení
 
@@ -103,7 +103,7 @@ Class test;
 Var body;
 ```
 
-![[Pasted image 20230904002253.png]]
+![Pasted image 20230904002253](../Assets/Pasted%20image%2020230904002253.png)
 
 Na základě **ttestu** P hodnota = **0,4607**, přijmáme nulovou hypotezu a mezi soubory dle zvolené metody nesou statisticky vyznamné rozdíly
 
@@ -142,7 +142,7 @@ run;
 $$cena=-2.558+3.5845*stari $$
 >[!tip] Мысли Ильи
 >Как видно по коду мы здесь делаем регрессный анализ 
->![[Pasted image 20230904004822.png]]
+>![Pasted image 20230904004822](../Assets/Pasted%20image%2020230904004822.png)
 >
 
 ![[Pasted image 20230904004859.png]]
@@ -156,14 +156,14 @@ P = 0,001, zamítáme H0, regresní koeficient je významný
 proc corr data=stroj pearson spearman;
 var cena stari;
 ```
-![[Pasted image 20230904005634.png]]
+![Pasted image 20230904005634](../Assets/Pasted%20image%2020230904005634.png)
 >[!tip] Мысли Ильи
 >Тут надо чекнуть коэффициенты **Пирсона** и **Спирмана** 
 >**Пирсона**: 0,92652
 >**Спирмана**: 0,98788
 >Итого эти 2 коэффициента показывают сильную линейную зависимость.
 >После этого чекаем на коэффициент детерминации **R-Square** (0,8584)
->![[Pasted image 20230904010201.png]]
+>![Pasted image 20230904010201](../Assets/Pasted%20image%2020230904010201.png)
 >То есть 86% процентов случаев можно объяснить изменения зависимой переменны от независимой.
 
 ## d) **Obsahuje model odlehle či vlivné hodnoty? Pokud ano, o jake hodnoty se jedna?**
@@ -223,7 +223,7 @@ model cena = stari / r influence spec;
 run;
 ```
 $$cena = 297.52813-18.34063*stari$$
-![[Pasted image 20230904020604.png]]
+![Pasted image 20230904020604](../Assets/Pasted%20image%2020230904020604.png)
 
 >[!tip] Мысли Ильи
 >Лежать + САСАТЬ! У меня получилось, осталось дальше по памяти  
@@ -236,7 +236,7 @@ Test významnosti pro absolutní člen je **0,0002** a pro regresní koeficient 
 
 **c) Z kolika procent lze vysvětlit cenu ojetého auta pomocí proměnné věk?**
 45%
-![[Pasted image 20230904021518.png]]
+![Pasted image 20230904021518](../Assets/Pasted%20image%2020230904021518.png)
 
 >[!tip] Мысли Ильи
 >Тут все изи: Смотрим на столбик R-Square = 0,4497
@@ -297,7 +297,7 @@ proc univariate data=jizda cibasic;
 var mereni;
 run;
 ```
-![[Pasted image 20230904093114.png]]
+![Pasted image 20230904093114](../Assets/Pasted%20image%2020230904093114.png)
 
 95% oboustranné intervaly spolehlivosti 
 Mean (průměr) = (42.955; 52.04491);
@@ -422,7 +422,7 @@ proc univariate data = priklad normal plot;
 run;
 ```
 
-![[Pasted image 20230904125109.png]]
+![Pasted image 20230904125109](../Assets/Pasted%20image%2020230904125109.png)
 
 Pr<W (0.0465) => H0 se zamitame, soubor nema normalni rozdeleni. **Neparametricky test.**
 ## **c)**     **Jaký závěr vyplývá ze provedeného testu**
@@ -434,7 +434,7 @@ var cena;
 run;
 ```
 
-![[Pasted image 20230904125849.png]]
+![Pasted image 20230904125849](../Assets/Pasted%20image%2020230904125849.png)
 >[!tip] Мысли Ильи
 >Так как видим коеф меньше 0,05, то замитаем 0 гипотезу. Цены отличаются!
 >
@@ -447,7 +447,7 @@ Ceny jsou odlisny
 >Здесь смотрим на график - он покажет какие отличаются 
 >
 
-![[Pasted image 20230904130213.png]]
+![Pasted image 20230904130213](../Assets/Pasted%20image%2020230904130213.png)
 
 Sony a Samsung se lisi od H a L
 
@@ -484,8 +484,8 @@ H1 znaky vykazuji zavislost
 
 ## **b)**      **Je možne tvrdit že mezi znáky existuje závislost**
 
-![[Pasted image 20230904131658.png]]
-![s](./assets/Pasted_image20230904131658.png)
+![Pasted image 20230904131658](../Assets/Pasted%20image%2020230904131658.png)
+
 
 
 **0,0240 menší než 0,05, zamitame nulovou hypotézu a jedna o nezavislosti znaku**
