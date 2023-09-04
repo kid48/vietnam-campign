@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistika II/_Zkouskovy test.md",
+                "file": "Statistika II/Parametrické testy.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistika II/_Zkouskovy test.md",
+                "file": "Statistika II/Parametrické testy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistika II/_Zkouskovy test.md",
+                "file": "Statistika II/Parametrické testy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistika II/_Zkouskovy test.md"
+                "file": "Statistika II/Parametrické testy.md"
               }
             }
           },
@@ -169,27 +169,27 @@
   },
   "active": "56a2f07b3786c4eb",
   "lastOpenFiles": [
+    "Statistika II/Odlehlé a extrémní hodnoty.md",
+    "Statistika II/Neparametrické testy.md",
+    "Statistika II/Jednoduchá regrese a korelace.md",
     "Statistika II/Boxplot.md",
     "Statistika II/_Zkouskovy test.md",
+    "Statistika II/_SAS_Jednovýběrové testy.md",
+    "Statistika II/_SAS_Dvouvýběrový testy.md",
+    "Statistika II/Základní statistické charakteristiky.md",
+    "Statistika II/Těžké konce a lehké konce.md",
+    "Statistika II/Testování statistických hypotéz.md",
+    "Statistika II/Teorie odhadu (bodové a intervalové odhady).md",
+    "Statistika II/Parametrické testy.md",
     "Assets/Pasted image 20230904093114.png",
     "TTRPG/Readme.md",
     "TTRPG/Custom Instructions.md",
-    "Statistika II/Parametrické testy.md",
     "Assets/Pasted image 20230902201322.png",
-    "Statistika II/Jednoduchá regrese a korelace.md",
     "Assets/Pasted image 20230508014621.png",
     "Assets/Pasted image 20230904131658.png",
     "Assets/Pasted image 20230904130213.png",
     "Assets/Pasted image 20230904125849.png",
     "Assets/Pasted image 20230904125109.png",
-    "Statistika II/Základní statistické charakteristiky.md",
-    "Statistika II/_SAS_Dvouvýběrový testy.md",
-    "Statistika II/_SAS_Jednovýběrové testy.md",
-    "Statistika II/Teorie odhadu (bodové a intervalové odhady).md",
-    "Statistika II/Odlehlé a extrémní hodnoty.md",
-    "Statistika II/Neparametrické testy.md",
-    "Statistika II/Těžké konce a lehké konce.md",
-    "Statistika II/Testování statistických hypotéz.md",
     "Assets/Pasted image 20230904021518.png",
     "Assets/Pasted image 20230904020604.png",
     "Assets/Pasted image 20230904010201.png",

@@ -1,4 +1,4 @@
-![[Pasted image 20230903190446.png]]
+![Pasted image 20230903190446](../Assets/Pasted%20image%2020230903190446.png)
 
 Parametrickým testem rozumíme takový test, pro jehož odvození je nutno specifikovat typ rozdělení, případně jeho parametry. Nejčastěji se setkáváme s předpokladem normality dat.
 
