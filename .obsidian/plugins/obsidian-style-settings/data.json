@@ -1,0 +1,20 @@
+{
+  "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-latte",
+  "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-mocha",
+  "things-style@@fancy-highlight": true,
+  "things-style@@active-line": true,
+  "things-style@@fancy-code": true,
+  "minimal-style@@h1-color@@light": "#9BFF11",
+  "minimal-style@@h1-color@@dark": "#9BFF11",
+  "minimal-style@@ax3@@dark": "#0994FF",
+  "minimal-style@@code-important@@dark": "#B604FF",
+  "minimal-style@@italic-color@@light": "#F6ED04",
+  "minimal-style@@italic-color@@dark": "#F6ED04",
+  "minimal-style@@bold-color@@dark": "#ED00FF",
+  "minimal-style@@base@@dark": "#222421",
+  "minimal-style@@window-title-off": false,
+  "minimal-style@@tx1@@dark": "#ADADAD",
+  "minimal-style@@callouts-style": "callouts-default",
+  "minimal-style@@callout-blend-mode": "var(--highlight-mix-blend-mode)",
+  "minimal-style@@blockquote-font-style": "italic"
+}

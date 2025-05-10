@@ -1,0 +1,156 @@
+{
+  "savedFeeds": {
+    "The Bag of Tales": {
+      "title": "The Bag of Tales",
+      "url": "https://anchor.fm/s/d764b0cc/podcast/rss",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/2a/2d/2a/2a2d2aa3-c795-54ea-9248-bebf6a845e5b/mza_4055120535997251551.jpg/100x100bb.jpg",
+      "collectionId": 1661483108
+    },
+    "Чайный паладин": {
+      "title": "Чайный паладин",
+      "url": "https://feeds.feedburner.com/teapaladin/wcYU",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/3b/8e/5a/3b8e5a01-d62e-8114-2c16-d381373bd2d0/mza_2846122905302760584.jpg/100x100bb.jpg",
+      "collectionId": 1450756958
+    }
+  },
+  "podNotes": {},
+  "defaultPlaybackRate": 1,
+  "playedEpisodes": {
+    "Home_map": {
+      "title": "Home_map",
+      "podcastName": "local file",
+      "time": 0,
+      "duration": 0,
+      "finished": true
+    },
+    "podcast": {
+      "title": "podcast",
+      "podcastName": "local file",
+      "time": 0,
+      "duration": 0,
+      "finished": true
+    },
+    "Показуй, а не розповідай. Наративна техніка для Настільних Рольових Ігор": {
+      "title": "Показуй, а не розповідай. Наративна техніка для Настільних Рольових Ігор",
+      "podcastName": "The Bag of Tales",
+      "time": 113.877211,
+      "duration": 3294.0669,
+      "finished": false
+    }
+  },
+  "favorites": {
+    "icon": "lucide-star",
+    "name": "Favorites",
+    "shouldEpisodeRemoveAfterPlay": false,
+    "shouldRepeat": false,
+    "episodes": []
+  },
+  "queue": {
+    "icon": "list-ordered",
+    "name": "Queue",
+    "shouldEpisodeRemoveAfterPlay": true,
+    "shouldRepeat": false,
+    "episodes": [
+      {
+        "title": "podcast",
+        "description": "",
+        "content": "",
+        "podcastName": "local file",
+        "url": "[podcast](podcast.md)",
+        "streamUrl": "blob:app://obsidian.md/b7e53520-cc9b-409b-80b3-fd64d8afbaaf",
+        "episodeDate": "2023-12-24T22:37:33.438Z"
+      },
+      {
+        "title": "Home_map",
+        "description": "",
+        "content": "",
+        "podcastName": "local file",
+        "url": "[Home_map](Home_map.md)",
+        "streamUrl": "blob:app://obsidian.md/d9b2e0fb-c078-45f3-a1e1-089a041e68b5",
+        "episodeDate": "2023-12-10T21:34:41.348Z"
+      }
+    ]
+  },
+  "playlists": {},
+  "skipBackwardLength": 15,
+  "skipForwardLength": 15,
+  "currentEpisode": {
+    "title": "Показуй, а не розповідай. Наративна техніка для Настільних Рольових Ігор",
+    "streamUrl": "https://anchor.fm/s/d764b0cc/podcast/play/79834765/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-11-10%2F7c8c28fa-8d98-e245-b2bd-32a6ee01940c.mp3",
+    "url": "https://podcasters.spotify.com/pod/show/bag-of-tales/episodes/ep-e2d2s6d",
+    "description": "<p>Як бути цікавим майстром? Як занурювати гравців в історію? Як робити історію правдоподібною? Техніка &quot;Показуй, а не розповідай&quot; широко відома серед письменників та сценаристів, режисерів та гейм дизайнерів. &quot;Показувати&quot; значить будувати сцену в правдоподібних обставинах з діючими в ній персонажами з власними бажаннями, метою, відповідним характером та поведінкою. Значною частиною цієї техніки є Опис. З цим всім і трохи більше розбираємось в даному епізоді. \n\nНаш телеграм канал з практичними завданнями\nhttps://t.me/bagoftales\n\nТайм коди:\n00:00 Вступ\n01:29 Що таке &quot;Показуй, а не розповідай&quot;\n02:45 Приклади техніки\n08:45 Підхід Чака Поланика\n11:45 Підхід Анджея Сапковського\n14:32 Підхід Роджера Желязни\n17:23 Розбір опису з &quot;Розповідь служниці&quot; Маргарет Етвуд\n19:07 Розбір опису з &quot;Воно&quot; Стівен Кінг\n21:07 Розбір опису з &quot;Олівер Твіст&quot; Чарльза Діккенса\n23:32 Розбір опису з ... якщо знаєш назву - напиши в коментарях\n25:05 Використання метафор\n30:58 Помилки у використанні цієї Техніки\n36:39 Практичні питання собі для створення опису\n43:03 Висновки\n43:58 Використовуй сильні дієслова\n46:41 Символи, метафори і ще\n52:14 Практичні завдання\n54:19 Завершення\n\n🎙 Ведучі подкасту:\nВолодимир Зубков\nБорис Бабусенко\nОлексій Базовкін\nВіталій Андріюк \n\n❤️ Підтримай розвиток подкасту:\nhttps://donatello.to/thebagoftales</p>\n\n--- \n\nSend in a voice message: https://podcasters.spotify.com/pod/show/bag-of-tales/message",
+    "content": "",
+    "podcastName": "The Bag of Tales",
+    "artworkUrl": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/36037003/36037003-1702240915852-442617b5cfa77.jpg",
+    "episodeDate": "2023-12-11T06:00:00.000Z",
+    "feedUrl": "https://anchor.fm/s/d764b0cc/podcast/rss",
+    "itunesTitle": ""
+  },
+  "timestamp": {
+    "template": "- {{time}} "
+  },
+  "note": {
+    "path": "",
+    "template": ""
+  },
+  "download": {
+    "path": ""
+  },
+  "downloadedEpisodes": {
+    "local file": [
+      {
+        "title": "Home_map",
+        "description": "",
+        "content": "",
+        "podcastName": "local file",
+        "url": "[Home_map](Home_map.md)",
+        "streamUrl": "blob:app://obsidian.md/d9b2e0fb-c078-45f3-a1e1-089a041e68b5",
+        "episodeDate": "2023-12-10T21:34:41.348Z",
+        "filePath": "Home_map.md",
+        "size": 201
+      },
+      {
+        "title": "podcast",
+        "description": "",
+        "content": "",
+        "podcastName": "local file",
+        "url": "[podcast](podcast.md)",
+        "streamUrl": "blob:app://obsidian.md/b7e53520-cc9b-409b-80b3-fd64d8afbaaf",
+        "episodeDate": "2023-12-24T22:37:33.438Z",
+        "filePath": "podcast.md",
+        "size": 0
+      }
+    ]
+  },
+  "localFiles": {
+    "icon": "folder",
+    "name": "Local Files",
+    "shouldEpisodeRemoveAfterPlay": false,
+    "shouldRepeat": false,
+    "episodes": [
+      {
+        "title": "Home_map",
+        "description": "",
+        "content": "",
+        "podcastName": "local file",
+        "url": "[Home_map](Home_map.md)",
+        "streamUrl": "blob:app://obsidian.md/d9b2e0fb-c078-45f3-a1e1-089a041e68b5",
+        "episodeDate": "2023-12-10T21:34:41.348Z"
+      },
+      {
+        "title": "podcast",
+        "description": "",
+        "content": "",
+        "podcastName": "local file",
+        "url": "[podcast](podcast.md)",
+        "streamUrl": "blob:app://obsidian.md/b7e53520-cc9b-409b-80b3-fd64d8afbaaf",
+        "episodeDate": "2023-12-24T22:37:33.438Z"
+      }
+    ]
+  },
+  "openAIApiKey": "",
+  "transcript": {
+    "path": "transcripts/{{podcast}}/{{title}}.md",
+    "template": "# {{title}}\n\nPodcast: {{podcast}}\nDate: {{date}}\n\n{{transcript}}"
+  }
+}

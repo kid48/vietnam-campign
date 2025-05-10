@@ -1,16 +1,16 @@
 {
   "settings": {
-    "migrated": true,
+    "migrated": 6,
     "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
     "fontSize": 16,
-    "emojiStyle": "none",
+    "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "FasUser-secret",
-      "FasPlace-of-worship",
-      "FasUsers",
-      "FasUser",
-      "FarImage"
+      "FasUserNinja",
+      "SiForestry",
+      "LiGraduationCap",
+      "LiMails",
+      "🧛"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -20,11 +20,31 @@
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": false
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconIdentifier": ":",
+    "iconsInLinksEnabled": true,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "debugMode": false,
+    "iconInTitlePosition": "above",
+    "lucideIconPackType": "native",
+    "useInternalPlugins": false
   },
-  "TTRPG/Vietnam/Вложения": "FarImage",
-  "TTRPG/Vietnam/Игроки": "FasUser",
-  "TTRPG/Vietnam/Локации": "FasPlace-of-worship",
-  "TTRPG/Vietnam/Противники": "FasUser-secret",
-  "TTRPG/Vietnam/Союзники": "FasUsers"
+  "TTRPG/Киберпанк": "FasRobot",
+  "TTRPG/Углегорск": "🪨",
+  "TTRPG/Операция Рождество": "🎄",
+  "Робота": "LiComputer",
+  "TTRPG/Вампиры": "🩸",
+  "TTRPG/Вампиры/Локации": "LiMap",
+  "TTRPG/Вампиры/NPC": "FasUserGroup",
+  "TTRPG/Вампиры/Персонажи": "LiUser",
+  "TTRPG/Вампиры/Фракции": "🧛",
+  "Accounts": "LiMails",
+  "ČZU": "LiGraduationCap",
+  "TTRPG/Cairn": "SiForestry",
+  "TTRPG/Shinobi": "FasUserNinja"
 }

@@ -1,9 +1,12 @@
 [
-  "table-editor-obsidian",
-  "obsidian-git",
   "obsidian-icon-folder",
-  "obsidian-projects",
   "dataview",
   "obsidian-excalidraw-plugin",
-  "simple-embeds"
+  "obsidian-style-settings",
+  "shortcuts-extender",
+  "podnotes",
+  "calendar",
+  "obsidian-minimal-settings",
+  "oz-clear-unused-images",
+  "obsidian-git"
 ]

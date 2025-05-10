@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"b80c5e829fb2728e","type":"text","text":"Razar","x":-314,"y":-60,"width":160,"height":60},
+		{"id":"59dd3ce2ebe59159","type":"text","text":"Имперская Армия","x":140,"y":-60,"width":310,"height":56,"color":"3"},
+		{"id":"8e752f749500740d","type":"text","text":"ISS","x":566,"y":-58,"width":114,"height":60},
+		{"id":"c11295ca542814f2","type":"text","text":"Контрабандисты","x":1270,"y":-62,"width":250,"height":60},
+		{"id":"ee20bd2f4cc8e2e2","type":"text","text":"Набеги жуков","x":-484,"y":-360,"width":250,"height":60},
+		{"id":"31294b824f28a697","type":"text","text":"Церковь святого императора","x":780,"y":-78,"width":340,"height":93},
+		{"id":"7a68593d9bb8f214","type":"text","text":"Поселение Аборигенов","x":-1242,"y":309,"width":402,"height":131},
+		{"id":"24f21ad2945cad16","type":"text","text":"Арслан","x":1760,"y":-64,"width":250,"height":60},
+		{"id":"408c6b05a78f7a24","type":"text","text":"Космопорт  \nБар\n\nФилиал 2-3 фракций также магазины\n\n1. Имперские войска\n2. Торговая компания 3 империи\n3. IISS\n4. Релігійний центр\n5. Станция обслуживания","x":-588,"y":240,"width":548,"height":401},
+		{"id":"2a9fadb5f53fd7eb","type":"text","text":"Бар","x":-1470,"y":596,"width":250,"height":60},
+		{"id":"37f648c96e8faf37","type":"text","text":"Свадьба","x":623,"y":-420,"width":250,"height":60,"color":"1"},
+		{"id":"1451f66fd4eb55e8","type":"text","text":"Песчаная буря?","x":147,"y":-653,"width":250,"height":60},
+		{"id":"31e798807d6c0760","x":-1375,"y":-70,"width":334,"height":85,"type":"text","text":"Анастасия Смирнова"}
+	],
+	"edges":[
+		{"id":"64e90676063835f4","fromNode":"ee20bd2f4cc8e2e2","fromSide":"bottom","toNode":"b80c5e829fb2728e","toSide":"left"},
+		{"id":"46475bee3d76c427","fromNode":"b80c5e829fb2728e","fromSide":"bottom","toNode":"408c6b05a78f7a24","toSide":"top"},
+		{"id":"30cff5b5b4b1bf35","fromNode":"59dd3ce2ebe59159","fromSide":"left","toNode":"ee20bd2f4cc8e2e2","toSide":"right","label":"Ну попытаются уничтожить"},
+		{"id":"8d8b759d442a6998","fromNode":"7a68593d9bb8f214","fromSide":"bottom","toNode":"2a9fadb5f53fd7eb","toSide":"top"},
+		{"id":"cce5d0190fcc2b71","fromNode":"59dd3ce2ebe59159","fromSide":"top","toNode":"37f648c96e8faf37","toSide":"left","label":"Врываются"},
+		{"id":"3507454deb2b7dea","fromNode":"c11295ca542814f2","fromSide":"top","toNode":"37f648c96e8faf37","toSide":"right","label":"Устраивают"}
+	]
+}

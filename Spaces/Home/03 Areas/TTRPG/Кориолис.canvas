@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"dd519058c00b1a1a","type":"text","text":"","x":620,"y":3138,"width":250,"height":60},
+		{"id":"9ba4b8fa4682d113","type":"text","text":"представительный мужчина средних лет с короткими седеющими волосами и одутловатым лицом. Он облачён в белую, расшитую чёрным шёлком джеллабу и красную феску, а при ходьбе опирается на короткую резную трость без ручки. Издалека может показаться, что он носит монокль, но на самом деле это кибернетический глаз со встроенным микроскопом.","x":-960,"y":1240,"width":760,"height":280},
+		{"id":"249f40e497a47439","type":"file","file":"Assets/МЕРЬЕЗ АЛЬКАН.png","x":-880,"y":160,"width":600,"height":1050},
+		{"id":"eeb52bc9244c7026","type":"text","text":"опирается на трость","x":142,"y":864,"width":338,"height":50},
+		{"id":"7867a9b493f1c5e6","type":"text","text":"цокает языком","x":-108,"y":1000,"width":250,"height":50},
+		{"id":"3459f3138ed01bf2","type":"text","text":"вращает кибернетическим\nглазом.","x":17,"y":480,"width":378,"height":96},
+		{"id":"4ae60279d2382e3a","type":"file","file":"Assets/Pasted image 20240427011837.png","x":-2140,"y":1680,"width":2520,"height":3278},
+		{"id":"8164e2c4dad9fb0b","type":"file","file":"Assets/Pasted image 20240427013747.png","x":-2800,"y":-237,"width":1080,"height":1111},
+		{"id":"dad3494fb40addfe","type":"file","file":"Assets/Pasted image 20240427013810.png","x":-2860,"y":914,"width":1240,"height":707},
+		{"id":"38e1318830dea462","type":"text","text":"Достать статуетку Зара багры","x":-1160,"y":-920,"width":683,"height":200},
+		{"id":"6ce32743ecf99492","type":"file","file":"Assets/Pasted image 20240427014202.png","x":-1060,"y":-466,"width":859,"height":626},
+		{"id":"e8a6a446055328b2","type":"text","text":"Решения с прыжком","x":700,"y":1980,"width":319,"height":54},
+		{"id":"c7a1b0a245ae9b45","type":"text","text":"Атака Пиратов","x":735,"y":2140,"width":250,"height":60},
+		{"id":"24eb0e0c82642c0a","type":"text","text":"Статуетка творит хуйню","x":661,"y":2300,"width":397,"height":60},
+		{"id":"ac6dbc8d0eb3d281","type":"text","text":"Встреча с Огромной тварью","x":651,"y":2220,"width":417,"height":62},
+		{"id":"22b7b1a2c62fc46a","type":"text","text":"Игроки добираются до менкара","x":642,"y":2420,"width":434,"height":50},
+		{"id":"71680a6a44561668","type":"file","file":"Assets/Pasted image 20240504190108.png","x":715,"y":-421,"width":1245,"height":1848},
+		{"id":"7b65f1c4e2ecdb16","type":"file","file":"Assets/Pasted image 20240518180257.png","x":1196,"y":2545,"width":2274,"height":1495},
+		{"id":"80a865cfb5b697a6","type":"text","text":"Приносят статуетку","x":572,"y":2769,"width":368,"height":51},
+		{"id":"cdce49bb1dbefcf7","type":"text","text":"Странный саботаж","x":606,"y":2860,"width":300,"height":63},
+		{"id":"2d6b8e4b1ba8d103","type":"text","text":"Погоня","x":631,"y":2980,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"4f4f9e762b7cda62","fromNode":"eeb52bc9244c7026","fromSide":"left","toNode":"249f40e497a47439","toSide":"right"},
+		{"id":"4155cd8ef8a44159","fromNode":"7867a9b493f1c5e6","fromSide":"left","toNode":"249f40e497a47439","toSide":"right"},
+		{"id":"ca2962aa41ad9ed8","fromNode":"3459f3138ed01bf2","fromSide":"left","toNode":"249f40e497a47439","toSide":"right"},
+		{"id":"03493dee1a6fee4c","fromNode":"8164e2c4dad9fb0b","fromSide":"right","toNode":"249f40e497a47439","toSide":"left","label":"Знает, как предприимчивого человека"}
+	]
+}

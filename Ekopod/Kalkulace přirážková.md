@@ -1,0 +1,3 @@
+# Kalkulace přirážková
+Přirážková kalkulace řeší tradiční rozvržení nepřímých nákladů u více výrobků. Většina podniků nevyrábí pouze jediný produkt. Musejí proto řešit otázku, jakým způsobem rozdělit na jednotlivé kalkulační jednice nepřímé náklady. Základní princip, který se při alokaci nepřímých nákladů na kalkulační jednici uplatňuje, je princip příčinnosti. Ten vychází z myšlenky, že každý výrobek má být zatížen pouze takovými náklady, které skutečně vyvolal. Děje se tak umělým způsobem, kdy existuje snaha najít určitý zprostředkovaný vztah mezi rozpočítávaným nepřímým nákladem a příslušnou kalkulační jednicí. Tento vztah reprezentuje tzv. rozvrhová (kalkulační) základna. Při její volbě by mělo být splněno několik požadavků:
+

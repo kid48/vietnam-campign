@@ -4,23 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "5cb0f10dcbd90118",
+        "id": "1f9cb3c2d1bfefaf",
         "type": "tabs",
         "children": [
           {
-            "id": "56a2f07b3786c4eb",
+            "id": "ec1282acd5fd4b65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistika II/Parametrické testy.md",
+                "file": "TTRPG/Вампиры/Локации/Восток/Key Biscayne.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Key Biscayne"
+            }
+          },
+          {
+            "id": "8f0a9b5d175621e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TTRPG/Вампиры/Персонажи/Селена.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Селена"
+            }
+          },
+          {
+            "id": "23fc634a112022fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TTRPG/Мейд/Сюжет.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Сюжет"
             }
           }
         ],
-        "stacked": true
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -39,8 +69,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
             }
           },
           {
@@ -55,15 +88,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "74818b1615d70318",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
             }
           },
           {
@@ -71,14 +98,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 329.5
   },
   "right": {
     "id": "63141106f6c6f745",
@@ -87,6 +116,7 @@
       {
         "id": "b4a5725591c01a84",
         "type": "tabs",
+        "dimension": 62.35294117647059,
         "children": [
           {
             "id": "80d3352ccce28448",
@@ -94,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistika II/Parametrické testy.md",
+                "file": "Spaces/Home/Daily/2025-01-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,19 +132,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "24ada8a1da42f5c8",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Statistika II/Parametrické testy.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для 2025-01-26"
             }
           },
           {
@@ -125,7 +145,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Мітки"
             }
           },
           {
@@ -134,88 +156,204 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistika II/Parametrické testy.md"
-              }
+                "file": "Spaces/Home/02 Projects/Harry Potter/Идеи.md"
+              },
+              "icon": "lucide-list",
+              "title": "Структура Идеи"
             }
           },
           {
-            "id": "b5f84140df533740",
+            "id": "e1b2daef9450a7ec",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Всі властивості"
+            }
+          },
+          {
+            "id": "b67039164fda87b2",
+            "type": "leaf",
+            "state": {
+              "type": "podcast_player_view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Плагин больше не активен"
+            }
+          },
+          {
+            "id": "5a6a13f49c71ca3e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Spaces/Home/02 Projects/Dark Sun.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Вихідні посилання з Dark Sun"
+            }
+          },
+          {
+            "id": "73bb5e460c41f232",
+            "type": "leaf",
+            "state": {
+              "type": "podcast_player_view",
+              "state": {},
+              "icon": "play-circle",
+              "title": "Podcast Player"
+            }
+          },
+          {
+            "id": "229b964151590f0a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
+      },
+      {
+        "id": "56540948220a5f62",
+        "type": "tabs",
+        "dimension": 37.64705882352941,
+        "children": [
+          {
+            "id": "6b832931570cdbfb",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 328.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "canvas:Create new canvas": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "switcher:Меню быстрого перехода": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "graph:Граф": false,
+      "remotely-save:Remotely Save": false,
+      "obsidian-excalidraw-plugin:Создать новый чертеж": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "56a2f07b3786c4eb",
+  "floating": {
+    "id": "b1a1b9a89d24a7d2",
+    "type": "floating",
+    "children": [
+      {
+        "id": "797c06bf3fd51e64",
+        "type": "window",
+        "children": [
+          {
+            "id": "65c163b58133d69a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d8cf7a5b3fd31dac",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://publish.obsidian.md/git-doc/Authentication",
+                    "title": "Authentication - Git Documentation - Obsidian Publish",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Authentication - Git Documentation - Obsidian Publish"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 341,
+        "y": 109,
+        "width": 1025,
+        "height": 801,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "23fc634a112022fc",
   "lastOpenFiles": [
-    "Statistika II/Odlehlé a extrémní hodnoty.md",
-    "Statistika II/Neparametrické testy.md",
-    "Statistika II/Jednoduchá regrese a korelace.md",
-    "Statistika II/Boxplot.md",
-    "Statistika II/_Zkouskovy test.md",
-    "Statistika II/_SAS_Jednovýběrové testy.md",
-    "Statistika II/_SAS_Dvouvýběrový testy.md",
-    "Statistika II/Základní statistické charakteristiky.md",
-    "Statistika II/Těžké konce a lehké konce.md",
-    "Statistika II/Testování statistických hypotéz.md",
-    "Statistika II/Teorie odhadu (bodové a intervalové odhady).md",
-    "Statistika II/Parametrické testy.md",
-    "Assets/Pasted image 20230904093114.png",
-    "TTRPG/Readme.md",
-    "TTRPG/Custom Instructions.md",
-    "Assets/Pasted image 20230902201322.png",
-    "Assets/Pasted image 20230508014621.png",
-    "Assets/Pasted image 20230904131658.png",
-    "Assets/Pasted image 20230904130213.png",
-    "Assets/Pasted image 20230904125849.png",
-    "Assets/Pasted image 20230904125109.png",
-    "Assets/Pasted image 20230904021518.png",
-    "Assets/Pasted image 20230904020604.png",
-    "Assets/Pasted image 20230904010201.png",
-    "Statistika II/__Readme.md",
-    "Ucet/Nepůsobivé operace.md",
-    "Ucet/Nakladovy (MD).md",
-    "Ucet/Finacny naklady a vynosy.md",
-    "Ucet/_Readme.md",
-    "TTRPG/Мысли после просмотра Анализ Бэтмен Будущего.md",
-    "TTRPG/Основные мысли мастера.md",
-    "TTRPG/Дуо-игры.md",
-    "Odlehlé/extrémní hodnoty.md",
-    "Odlehlé",
-    "Ucet/Působivé operace.md",
-    "Ucet/Test.md",
-    "Statistika II",
-    "Kanban",
-    "OE2",
-    "Znackovaci",
-    "Статистика/TEST 2",
-    "Статистика/TEST 1",
-    "Personnel managment",
-    "Статистика",
-    "Символы Космоса",
-    "Untitled.canvas",
+    "TTRPG/Мейд/Сюжет.md",
+    "TTRPG/Вампиры/Идеи.md",
+    "TTRPG/Вампиры/Фракции/Sosyete Kalfou Sang.md",
+    "TTRPG/Вампиры/Персонажи/Селена.md",
+    "Spaces/Home/Daily/2025-05-08.md",
+    "TTRPG/Мейд",
+    "Assets/Pasted image 20250508185640.png",
+    "TTRPG/Вампиры/Сессии/Сессия 2025-05-04.md",
+    "TTRPG/Вампиры/NPC/Бьянка.md",
+    "TTRPG/Вампиры/Локации/Восток/Key Biscayne.md",
+    "TTRPG/Вампиры/Локации/Восток/Mid Beach.md",
+    "TTRPG/Вампиры/Локации/Восток/North Bay Village.md",
+    "TTRPG/Вампиры/Локации/Восток/North Beach.md",
+    "TTRPG/Вампиры/Локации/Восток/South Beach.md",
+    "TTRPG/Вампиры/Локации/Восток/Port Miami.md",
+    "TTRPG/Вампиры/Локации/Восток/Venetian Island.md",
+    "TTRPG/Вампиры/Локации/Восток/Virginia Key.md",
+    "TTRPG/Вампиры/Emotion_map.excalidraw.md",
+    "TTRPG/Вампиры/Персонажи/Фридрих Спарк.md",
+    "TTRPG/Вампиры/Персонажи/Роза.md",
+    "TTRPG/Вампиры/Сессии/Сессия 2025-04-06.md",
+    "TTRPG/Вампиры/Сессии/Сессия 2025-03-23.md",
+    "TTRPG/Вампиры/Сессии/Сессия 2025-03-16.md",
+    "TTRPG/Вампиры/Сессии/Сессия 2025-03-09.md",
+    "TTRPG/Вампиры/NPC/Нора Сестра Гарсия.md",
+    "TTRPG/Вампиры/Нулевка.md",
+    "TTRPG/Вампиры/Районы.md",
+    "TTRPG/Вампиры/Фракции/Правительство.md",
+    "TTRPG/Вампиры/image-asset.png",
+    "Assets/skytower_scheme.png",
+    "TTRPG/Shinobi",
+    "TTRPG/Cairn",
+    "Assets/c86554cd-20e1-44c4-b1ca-bf43453712e5.png",
+    "Assets/0c06bacbd11a4c45e24b896501c3ab82.jpg",
+    "ČZU",
+    "TTRPG/Вампиры/Локации/Центр",
+    "TTRPG/Вампиры/Локации/Восток",
+    "TTRPG/Вампиры/Локации/Запад",
+    "TTRPG/Вампиры/Локации/Юг",
+    "TTRPG/Вампиры/Локации/Север",
+    "Assets/IMG_20250309_005210_264_edit_510076713769781.png",
+    "Assets/SymbolCamarillaV5.webp-token.png",
+    "Accounts",
+    "Assets/med_0.png",
+    "Assets/Pasted Image 20250317013612_805.png",
+    "Spaces/Home/02 Projects/PF2/Untitled.canvas",
+    "Assets/Madam-1536x864.jpg",
+    "TTRPG/Вампиры/Мями.canvas",
+    "Без названия.canvas",
+    "Spaces/Home/02 Projects/Cyberpunk RED/Стол Связей.canvas",
+    "Spaces/Home/02 Projects/Harry Potter/Связи.canvas",
+    "Без назви.canvas",
+    "Spaces/Home/02 Projects/Traveller (1st try)/Razar.canvas",
+    "Spaces/Home/02 Projects/Sugar/relations map.canvas",
     "TTRPG/Vietnam/Без названия.canvas",
-    "Без названия 1.canvas"
+    "Spaces/Home/03 Areas/TTRPG/Кориолис.canvas"
   ]
 }

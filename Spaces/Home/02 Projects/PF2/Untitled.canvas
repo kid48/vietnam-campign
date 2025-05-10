@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"834f2bf08b962d24","type":"file","file":"Assets/Pasted image 20240628162801.png","x":-480,"y":360,"width":400,"height":161},
+		{"id":"0d79deafa048396a","type":"file","file":"Assets/Pasted image 20240628163121.png","x":-795,"y":680,"width":350,"height":400},
+		{"id":"1a9117adc9e6a7e7","type":"file","file":"Assets/Pasted image 20240628163149.png","x":-60,"y":300,"width":400,"height":281},
+		{"id":"23e42184290176f2","type":"file","file":"Assets/Pasted image 20240628163207.png","x":-60,"y":633,"width":400,"height":94},
+		{"id":"a500e59c054fd671","type":"file","file":"Assets/Pasted image 20240628163343.png","x":620,"y":-840,"width":757,"height":620},
+		{"id":"6c828dffaf4b681f","type":"text","text":"","x":-744,"y":-862,"width":250,"height":60},
+		{"id":"02f96640be11413c","type":"file","file":"Assets/Otari_Fishery_basement_1st_level.png","x":-1739,"y":-2693,"width":2240,"height":2799},
+		{"id":"cf708295acb264f4","type":"file","file":"Assets/Pasted image 20240628163850.png","x":620,"y":-2880,"width":913,"height":946},
+		{"id":"e4c2da5a87832d26","type":"file","file":"Assets/Pasted image 20240628163706.png","x":620,"y":-1840,"width":895,"height":320},
+		{"id":"b196660f976de4ff","type":"file","file":"Assets/Pasted image 20240628163306.png","x":620,"y":9,"width":681,"height":194},
+		{"id":"b4bf756c43a5435e","type":"file","file":"Assets/Pasted image 20240628164200.png","x":-2580,"y":-1293,"width":660,"height":638},
+		{"id":"a913138796402177","type":"file","file":"Assets/Pasted image 20240628164229.png","x":-2760,"y":-540,"width":919,"height":880},
+		{"id":"ab6a53f90ae631af","type":"text","text":"7 wan\n14\n17 alex\n19 max 10\n","x":-414,"y":566,"width":250,"height":194}
+	],
+	"edges":[]
+}

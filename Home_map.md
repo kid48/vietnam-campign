@@ -1,6 +1,9 @@
-#🗺️
+# Active Games
+```dataview
+LIST FROM #active 
+```
+# Заявки
+```dataview
+TASK FROM #active GROUP BY file.name
 
- [[Map of my philosophy]] - Здесь описаны мои вопросы и исследования
-
-[[TTRPG/Readme|НРИ]] - Список моих игр и заметки по ним
-
+```

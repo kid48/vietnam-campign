@@ -1,6 +1,9 @@
 {
-  "accentColor": "",
-  "cssTheme": "Cybertron",
+  "accentColor": "#c038ff",
+  "cssTheme": "Tokyo Night",
   "theme": "obsidian",
-  "baseFontSize": 17
+  "baseFontSize": 16,
+  "interfaceFontFamily": "JetBrainsMono Nerd Font",
+  "textFontFamily": "JetBrainsMono Nerd Font",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono"
 }
